@@ -1,5 +1,5 @@
 * {
-  padding: 0;
+  padding: 0px;
   box-sizing: border-box;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -27,7 +27,7 @@ code {
   min-height: 100vh;
   background: #FFEFBA;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #FFFFFF, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to left, #ffffff, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
 
 }
@@ -117,7 +117,7 @@ img {
     display: none;
   }
   .status{
-    padding: 40px 10px;
+    padding: 10px 30px;
   }
 }
 

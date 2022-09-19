@@ -41,7 +41,7 @@ const Home = () => {
                 
             </div>
             
-            <div className="col-md-4">
+            <div className="col-md-4 " style={{marginTop:'5rem'}}>
                 <RightSideBar />
             </div>
         </div>
