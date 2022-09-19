@@ -1,18 +1,35 @@
 .auth_page{
     width: 100%;
     min-height: 100vh;
-    background: #fdfdfd;
+    /* background: #bc1515; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.auth_page h3 {
+    font-size: 72px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.auth_page button {
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
 .auth_page form{
-    background: #fff;
-    max-width: 400px;
+    background: rgb(230, 215, 215);
+    max-width: 500px;
     width: 100%;
     border: 1px solid #ddd;
     padding: 50px 25px;
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+border-radius: 5px;
 }
+
 
 .auth_page form .pass{
     position: relative;
