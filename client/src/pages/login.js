@@ -32,7 +32,7 @@ const Login = () => {
     return (
         <div className="auth_page">
             <form onSubmit={handleSubmit}>
-                <h3 className="text-uppercase text-center mb-4"> INSTAOMLEM</h3>
+                <h3 className="text-lowercase text-center mb-4"> instaomlem</h3>
 
                 <div className="form-group">
                     <label htmlFor="exampleInputEmail1">Email address</label>
@@ -60,13 +60,13 @@ const Login = () => {
                    
                 </div>
                 
-                <button type="submit" className="btn btn-dark w-100"
+                <button type="submit" className="btn w-100"
                 disabled={email && password ? false : true}>
                     Login
                 </button>
 
                 <p className="my-2">
-                    You don't have an account? <Link to="/register" style={{color: "crimson"}}>Register Now</Link>
+                    You don't have an account? <Link to="/register" style={{color: "blue"}}>Register Now</Link>
                 </p>
             </form>
         </div>
