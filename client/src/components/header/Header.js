@@ -11,9 +11,9 @@ const Header = () => {
             bg-light justify-content-between align-middle">
 
                 <Link to="/" className="logo">
-                    <h1 className="navbar-brand text-uppercase p-0 m-0"
+                    <h1 className="navbar-brand text-lowercase p-0 m-0"
                     onClick={() => window.scrollTo({top: 0})}>
-                       INSTAOMLEM
+                    instaomlem
                     </h1>
                 </Link>
 
