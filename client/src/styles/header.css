@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata');
 .header{
     width: 100%;
-    min-height: 80px;
-    position:  -webkit-sticky;
+    min-height: 70px;
+    position:fixed;
     top:0;
     left: 0;
     z-index: 2;
@@ -13,12 +13,10 @@
 .header .navbar{
     width: 100%;
     height: 100%;
-
 }
 .header .logo h1{
     font-size: 2rem;
     font-family: 'Literata', cursive;
-
   background: -webkit-linear-gradient( #654ea3, #eaafc8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

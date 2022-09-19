@@ -7,8 +7,8 @@ const Header = () => {
 
     return (
         <div className="header bg-light">
-            <nav className="navbar navbar-expand-lg navbar-light 
-            bg-light justify-content-between align-middle">
+            <nav className=" navbar navbar-expand-lg navbar-light 
+            bg-light justify-content-around align-middle">
 
                 <Link to="/" className="logo">
                     <h1 className="navbar-brand text-lowercase p-0 m-0"
