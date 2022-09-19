@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata');
 .header{
     width: 100%;
-    min-height: 70px;
+    min-height: 80px;
     position:  -webkit-sticky;
     top:0;
     left: 0;
@@ -17,7 +17,7 @@
 }
 .header .logo h1{
     font-size: 2rem;
-    font-family: 'sans-serif', cursive;
+    font-family: 'Literata', cursive;
 
   background: -webkit-linear-gradient( #654ea3, #eaafc8);
   -webkit-background-clip: text;

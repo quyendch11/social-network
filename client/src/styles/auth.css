@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata');
 .auth_page{
     width: 100%;
     min-height: 100vh;
@@ -7,14 +8,15 @@
     justify-content: center;
 }
 .auth_page h3 {
-    font-size: 72px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    font-family:'Litterata',cursive;
     background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .auth_page button {
+    border: none;
     background-color: #4158D0;
 background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 
