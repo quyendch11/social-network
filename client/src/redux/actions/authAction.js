@@ -50,7 +50,7 @@ export const refreshToken = () => async (dispatch) => {
             })
 
             dispatch({ type: GLOBALTYPES.ALERT, payload: {} })
-
+           
         } catch (err) {
             dispatch({ 
                 type: GLOBALTYPES.ALERT, 
@@ -78,7 +78,6 @@ export const register = (data) => async (dispatch) => {
                 user: res.data.user
             } 
         })
-
         localStorage.setItem("firstLogin", true)
         dispatch({ 
             type: GLOBALTYPES.ALERT, 

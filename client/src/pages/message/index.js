@@ -12,10 +12,9 @@ const Message = () => {
                 <div className="d-flex justify-content-center 
                 align-items-center flex-column h-100">
 
-                    <i className="fab fa-facebook-messenger text-primary"
+                    <i className="fab fa-facebook-messenger"
                     style={{fontSize: '5rem'}} />
-                    <h4>INSTAOMLEM</h4>
-
+                    <h4 style={{ color: 'webkitLinearGradient( #654ea3, #eaafc8)'}}>Instaomlem</h4>
                 </div>
             </div>
         </div>

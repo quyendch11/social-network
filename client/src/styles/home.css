@@ -21,6 +21,9 @@
 }
 
 /* ------------Posts ------ */
+.posts {
+    margin-top: 5rem;
+}
 .posts .card{
     box-shadow: 0 0 4px #ddd;
 }
@@ -30,7 +33,10 @@
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+
+
     padding: 20px 15px;
+
 }
 .posts .card_header .card_name{
     transform: translateY(8px);
