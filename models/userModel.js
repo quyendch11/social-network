@@ -27,7 +27,7 @@ const userSchema = new mongoose.Schema({
     },
     avatar:{
         type: String,
-        default: 'https://res.cloudinary.com/devatchannel/image/upload/v1602752402/avatar/avatar_cugq40.png'
+        default: 'https://firebasestorage.googleapis.com/v0/b/yoongee.appspot.com/o/avatar-social.jpg?alt=media&token=501cef56-aad5-4719-8120-29402c551a79',
     },
     role: {type: String, default: 'user'},
     gender: {type: String, default: 'male'},
