@@ -35,7 +35,7 @@ const Posts = () => {
             }
 
             {
-                load && <img src={LoadIcon} alt="loading" className="d-block mx-auto" />
+                load && <img src={LoadIcon} alt="loading" className="d-block mx-auto"  />
             }
 
             

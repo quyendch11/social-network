@@ -11,7 +11,7 @@ const RightSideBar = () => {
     const dispatch = useDispatch()
 
     return (
-        <div className="mt-3">
+        <div className="mt-3" >
             <UserCard user={auth.user} />
 
             <div className="d-flex justify-content-between align-items-center my-2">
@@ -25,7 +25,7 @@ const RightSideBar = () => {
 
             {
                 suggestions.loading
-                ? <img src={LoadIcon} alt="loading" className="d-block mx-auto my-4" />
+                ? <img src={LoadIcon} alt="loading" className="d-block mx-auto my-1" />
                 : <div className="suggestions">
                     {
                         suggestions.users.map(user => (
@@ -37,19 +37,6 @@ const RightSideBar = () => {
                 </div>
             }
 
-            {/*<div style={{opacity: 0.5}} className="my-2" >*/}
-            {/*    <a href="https://www.youtube.com/c/DevATHTML" target="_blank" rel="noreferrer"*/}
-            {/*    style={{wordBreak: 'break-all'}} >*/}
-            {/*        https://www.youtube.com/c/DevATHTML*/}
-            {/*    </a>*/}
-            {/*    <small className="d-block">*/}
-            {/*        Welcome to our channel "DevAT-VietNam"*/}
-            {/*    </small>*/}
-
-            {/*    <small>*/}
-            {/*       &copy; 2021 V-NETWORK FROM DEV A.T VIET NAM*/}
-            {/*    </small>*/}
-            {/*</div>*/}
 
         </div>
     )

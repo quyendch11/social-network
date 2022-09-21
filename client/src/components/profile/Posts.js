@@ -34,7 +34,7 @@ const Posts = ({auth, id, dispatch, profile}) => {
             <PostThumb posts={posts} result={result} />
 
             {
-                load && <img src={LoadIcon} alt="loading" className="d-block mx-auto" />
+                load && <img src={LoadIcon} alt="loading" className="d-block mx-auto"  />
             }
 
             
